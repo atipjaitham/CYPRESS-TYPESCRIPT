@@ -1,0 +1,24 @@
+{
+  "name": "cypresswithtypescript",
+  "version": "1.0.0",
+  "description": "This is the project pratice following on udemy course.",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
+  "author": "ATIP",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.12.0"
+  }
+}
